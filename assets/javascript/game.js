@@ -8,7 +8,7 @@ teamOneShootButton.addEventListener ("click", function() {
     let newShots = parseInt (currentShots) + 1
     teamOneNumShots.innerHTML = newShots
 
-    let goals = 2
+    let goals = 10
     let currentGoals = teamOneNumGoals.innerHTML
     let newGoals = parseInt(currentGoals) + 1
     if (Math.floor(Math.random() * 11) >= goals) {
@@ -25,12 +25,12 @@ teamTwoShootButton.addEventListener ("click", function() {
     let newShots = parseInt(currentShots) +1
     teamTwoNumShots.innerHTML = newShots
 
-    let goal = 5
+    let goals = 10
     let currentGoals = teamTwoNumGoals.innerHTML
     let newGoals = parseInt(currentGoals) +1
     teamTwoNumGoals.innerHTML = newGoals
 
-    if (Math.floor(Math.random() *11) >= goal) {
+    if (Math.floor(Math.random() * 11) >= goals) {
         teamTwoNumGoals.innerHTML = newGoals 
     }
 })
