@@ -2,12 +2,13 @@ let teamOneShootButton = document.querySelector ("#teamone-shoot-button")
 let teamOneNumShots = document.querySelector ("#teamone-numshots")
 let teamOneNumGoals = document.querySelector ("#teamone-numgoals")
 
+
 teamOneShootButton.addEventListener ("click", function() {
     let currentShots = teamOneNumShots.innerHTML
     let newShots = parseInt (currentShots) + 1
     teamOneNumShots.innerHTML = newShots
 
-    let goal = 2
+    let goals = 2
     let currentGoals = teamOneNumGoals.innerHTML
     let newGoals = parseInt(currentGoals) + 1
     if (Math.floor(Math.random() * 11) >= goals) {
@@ -15,7 +16,7 @@ teamOneShootButton.addEventListener ("click", function() {
     }
 })
 
-let teamTwoShootButton = document.querySelector("teamtwo-shoot-button")
+let teamTwoShootButton = document.querySelector("#teamtwo-shoot-button")
 let teamTwoNumShots = document.querySelector("#teamtwo-numshots")
 let teamTwoNumGoals = document.querySelector("#teamtwo-numgoals")
 
