@@ -13,3 +13,11 @@
 #reset-container, h1 {
     text-align: center;
 }
+
+  body {
+    background-position: center;
+    background-image: url("https://us.123rf.com/450wm/gomolach/gomolach1503/gomolach150300135/38195921-stock-vector-green-grass-soccer-field-background-.jpg?ver=6");
+    background-repeat: no-repeat
+    
+    
+  }
